@@ -1,0 +1,19 @@
+[project]
+name = "solid-principles"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Yogeswaran2207",email = "yogeswaran0722@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "solid_principles", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
